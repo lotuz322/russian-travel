@@ -2,7 +2,9 @@
   max-width: 1184px;
   margin: 0 auto;
   padding: 28px 0 56px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr min-content min-content;
+  gap: 18px;
   justify-content: space-between;
   align-items: center;
 }
