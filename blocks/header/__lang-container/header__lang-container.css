@@ -1,0 +1,6 @@
+.header__lang-container {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  gap: 18px;
+}
