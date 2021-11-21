@@ -4,16 +4,20 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
   .places {
     gap: 72px;
+    padding-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     gap: 50px;
+    width: 100%;
+    padding-bottom: 66px;
   }
 }
